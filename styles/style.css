@@ -89,3 +89,29 @@ body{
     color: rgb(27, 241, 109);
     font-weight: 800;
 }
+
+/* my plans area styles */
+#plans{
+    margin: 220px 230px 0;
+}
+#plans .section_title{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+#plans .plan_row{
+    display: flex;
+    gap: 99px;
+}
+#plans .plan_row .plan_cols{
+    text-align: center;
+}
+#plans .plan_row .plan_cols img{
+    width: 93px;
+    height: 93px;
+}
+#plans .plan_row .plan_cols h4{
+    margin: 24px 0 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
