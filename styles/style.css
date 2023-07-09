@@ -2,29 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 /*common css*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: work sans;
 }
-.btn_primary{
+
+.btn_primary {
     background: #2312bb;
     color: #fff;
     padding: 8px 12px;
     border: none;
     transition: .5s;
 }
-.btn_primary:hover{
+
+.btn_primary:hover {
     background: #ccc;
     color: #000;
     cursor: pointer;
 }
 
 /* header banner styles */
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background: url('../images/banner/banner3.png');
@@ -35,83 +38,190 @@ body{
     justify-content: right;
     align-items: center;
 }
-#header .banner{
+
+#header .banner {
     text-align: right;
     width: 505px;
     color: #fff;
     margin-right: 230px;
 }
-#header .banner .banner_title{
+
+#header .banner .banner_title {
     font-size: 50px;
 }
-#header .banner .banner_desc{
+
+#header .banner .banner_desc {
     font-size: 16px;
     margin: 24px 0 34px 0;
     line-height: 24px;
 }
-#header .banner button{
+
+#header .banner button {
     font-size: 16px;
     padding: 12px 16px;
     border-radius: 5px;
     background: #ccc;
     color: #2312bb;
 }
-#header .banner button:hover{
+
+#header .banner button:hover {
     background: #000;
     color: #fff;
 }
 
 /*failure previous year styles*/
-#failure{
+#failure {
     margin: 140px 200px 0;
 }
-#failure .failure_parent{
+
+#failure .failure_parent {
     display: flex;
     gap: 134px;
     align-items: center;
 }
-#failure .failure_parent img{
+
+#failure .failure_parent img {
     width: 400px;
 }
-#failure .failure_parent .failure_desc h2{
+
+#failure .failure_parent .failure_desc h2 {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
-#failure .failure_parent .failure_desc p{
+
+#failure .failure_parent .failure_desc p {
     margin: 24px 0 10px;
 }
-#failure .failure_parent .failure_desc ul li{
+
+#failure .failure_parent .failure_desc ul li {
     list-style: none;
     margin-top: 8px;
 }
-#failure .failure_parent .failure_desc ul li i{
+
+#failure .failure_parent .failure_desc ul li i {
     color: rgb(27, 241, 109);
     font-weight: 800;
 }
 
 /* my plans area styles */
-#plans{
+#plans {
     margin: 220px 230px 0;
 }
-#plans .section_title{
+
+#plans .section_title {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
 }
-#plans .plan_row{
+
+#plans .plan_row {
     display: flex;
     gap: 99px;
 }
-#plans .plan_row .plan_cols{
+
+#plans .plan_row .plan_cols {
     text-align: center;
 }
-#plans .plan_row .plan_cols img{
+
+#plans .plan_row .plan_cols img {
     width: 93px;
     height: 93px;
 }
-#plans .plan_row .plan_cols h4{
+
+#plans .plan_row .plan_cols h4 {
     margin: 24px 0 12px;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* mindset area styles */
+
+#mindset {
+    max-width: 1140px;
+    height: 300px;
+    margin: 135px auto;
+    background: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#mindset .mindset_content {
+    margin-left: 60px;
+    max-width: 459px;
+}
+
+#mindset .mindset_content .mindest_title {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#mindset .mindset_content button {
+    padding: 15px 30px;
+    color: #2312bb;
+    background: #f0ebeb;
+    border-radius: 5px;
+}
+
+#mindset .mindset_content button:hover {
+    color: #fff;
+    background: #2312bb;
+}
+
+/* footer are styles */
+#footer {
+    background: #151414;
+    padding: 130px 230px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer_left_div {
+    max-width: 484px;
+}
+
+#footer .footer_left_div h2 {
+    font-size: 30px;
+}
+
+#footer .footer_left_div p {
+    font-size: 16px;
+    margin: 16px 0 24px;
+}
+
+#footer .footer_left_div h4 {
+    font-size: 16px;
+    margin: 16px 0 20px;
+    font-weight: normal;
+}
+
+#footer .footer_left_div ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+#footer .footer_left_div ul li img{
+    width: 46px;
+    height: 46px;
+}
+#footer .footer_right_div form{
+    margin-top: 20px;
+}
+#footer .footer_right_div form input{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 16px 0 16px 16px;
+    border-radius: 5px;
+}
+#footer .footer_right_div form button{
+    background: #5345d4;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+#footer .footer_right_div form button:hover{
+    background: #ccc;
 }
